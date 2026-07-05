@@ -98,7 +98,7 @@ public class BookAppointmentForm extends JPanel {
         title.setFont(new Font("SansSerif", Font.BOLD, 30));
         title.setForeground(new Color(18, 52, 86));
 
-        JLabel subtitle = new JLabel("Choose poli, doctor, schedule, and visit date.");
+        JLabel subtitle = new JLabel("Easily secure your appointment queue with our specialists.");
         subtitle.setFont(new Font("SansSerif", Font.PLAIN, 14));
         subtitle.setForeground(new Color(87, 104, 127));
 

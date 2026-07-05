@@ -148,7 +148,7 @@ public class DashboardAdmin extends JFrame {
         title.setFont(new Font("SansSerif", Font.BOLD, 30));
         title.setForeground(new Color(18, 52, 86));
 
-        JLabel subtitle = new JLabel("Live statistics pulled from MySQL.");
+        JLabel subtitle = new JLabel("A quick glance at today's appointments, pending approvals, and active schedules.");
         subtitle.setFont(new Font("SansSerif", Font.PLAIN, 14));
         subtitle.setForeground(new Color(87, 104, 127));
 

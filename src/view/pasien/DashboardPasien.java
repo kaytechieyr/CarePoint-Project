@@ -171,7 +171,7 @@ public class DashboardPasien extends JFrame {
         title.setFont(new Font("SansSerif", Font.BOLD, 30));
         title.setForeground(new Color(18, 52, 86));
 
-        JLabel subtitle = new JLabel("Live statistics for your account from MySQL.");
+        JLabel subtitle = new JLabel("Welcome back! Here is a quick summary of your active medical registrations.");
         subtitle.setFont(new Font("SansSerif", Font.PLAIN, 14));
         subtitle.setForeground(new Color(87, 104, 127));
 

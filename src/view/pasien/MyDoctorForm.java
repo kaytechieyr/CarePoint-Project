@@ -3,8 +3,6 @@ package view.pasien;
 import config.UITheme;
 import dao.DoctorDirectoryDAO;
 import dao.PoliDAO;
-import model.DoctorDirectoryItem;
-import model.Poli;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Cursor;
@@ -14,7 +12,6 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.util.List;
-
 import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
@@ -28,6 +25,8 @@ import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.border.EmptyBorder;
+import model.DoctorDirectoryItem;
+import model.Poli;
 
 public class MyDoctorForm extends JPanel {
 
@@ -62,7 +61,7 @@ public class MyDoctorForm extends JPanel {
         title.setFont(new Font("SansSerif", Font.BOLD, 30));
         title.setForeground(new Color(18, 52, 86));
 
-        JLabel subtitle = new JLabel("Browse doctors, poli, and practice schedules in real time.");
+        JLabel subtitle = new JLabel("Find available specialists, clinics, and check today's practice schedules.");
         subtitle.setFont(new Font("SansSerif", Font.PLAIN, 14));
         subtitle.setForeground(new Color(87, 104, 127));
 

@@ -21,8 +21,8 @@ import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
-import javax.swing.JFrame;
 import javax.swing.JComponent;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -85,7 +85,7 @@ public class MedicalReportsForm extends JPanel {
         title.setForeground(UITheme.PRIMARY_DARK);
 
         JLabel subtitle = new JLabel(
-                "Review your visit history, latest diagnosis, and prescriptions in a calm, patient-friendly layout.");
+                "Securely access your clinical records, treatments, and doctor's notes.");
         subtitle.setFont(UITheme.BODY_FONT);
         subtitle.setForeground(UITheme.MUTED);
 

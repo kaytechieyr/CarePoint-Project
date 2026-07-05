@@ -5,8 +5,6 @@ import config.TableScrollSupport;
 import config.UITheme;
 import dao.PasienDAO;
 import dao.PendaftaranDAO;
-import model.Pasien;
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -15,7 +13,6 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.util.List;
-
 import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
@@ -35,6 +32,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableModel;
+import model.Pasien;
 
 public class MyAppointmentForm extends JPanel {
 
@@ -74,7 +72,7 @@ public class MyAppointmentForm extends JPanel {
         title.setFont(new Font("SansSerif", Font.BOLD, 30));
         title.setForeground(new Color(18, 52, 86));
 
-        JLabel subtitle = new JLabel("Track your own appointments and cancel only your bookings.");
+        JLabel subtitle = new JLabel("Keep track of your scheduled clinic visits and appointment details.");
         subtitle.setFont(new Font("SansSerif", Font.PLAIN, 14));
         subtitle.setForeground(new Color(87, 104, 127));
 
