@@ -78,7 +78,7 @@ public class DoctorScheduleForm extends JPanel {
         title.setFont(new Font("SansSerif", Font.BOLD, 30));
         title.setForeground(new Color(18, 52, 86));
 
-        JLabel subtitle = new JLabel("Create, update, and remove doctor schedules from MySQL.");
+        JLabel subtitle = new JLabel("Manage and track doctor availability schedules across all clinics.");
         subtitle.setFont(new Font("SansSerif", Font.PLAIN, 14));
         subtitle.setForeground(new Color(87, 104, 127));
 

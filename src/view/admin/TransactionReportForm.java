@@ -3,19 +3,14 @@ package view.admin;
 import config.TableScrollSupport;
 import config.UITheme;
 import dao.TransactionReportDAO;
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Dimension;
-import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.util.List;
-
 import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
@@ -23,7 +18,6 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
@@ -64,7 +58,7 @@ public class TransactionReportForm extends JPanel {
         title.setFont(UITheme.DISPLAY_FONT);
         title.setForeground(UITheme.PRIMARY_DARK);
 
-        JLabel subtitle = new JLabel("Review appointments and medical records from the live database.");
+        JLabel subtitle = new JLabel("Overview all of medical summaries and registration logs.");
         subtitle.setFont(UITheme.BODY_FONT);
         subtitle.setForeground(UITheme.MUTED);
 

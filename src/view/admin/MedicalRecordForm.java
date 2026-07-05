@@ -90,7 +90,7 @@ public class MedicalRecordForm extends JPanel {
         title.setFont(UITheme.DISPLAY_FONT);
         title.setForeground(UITheme.PRIMARY_DARK);
 
-        JLabel subtitle = new JLabel("Manage diagnosis and multiple prescription items from live database records.");
+        JLabel subtitle = new JLabel("Manage secure patient health histories and clinical documentation.");
         subtitle.setFont(UITheme.BODY_FONT);
         subtitle.setForeground(UITheme.MUTED);
 

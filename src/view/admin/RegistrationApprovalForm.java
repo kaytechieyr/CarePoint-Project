@@ -75,7 +75,7 @@ public class RegistrationApprovalForm extends JPanel {
         title.setFont(new Font("SansSerif", Font.BOLD, 30));
         title.setForeground(new Color(18, 52, 86));
 
-        JLabel subtitle = new JLabel("Monitor all appointments and update their status.");
+        JLabel subtitle = new JLabel("Track patient check-ins and manage daily appointment confirmations.");
         subtitle.setFont(new Font("SansSerif", Font.PLAIN, 14));
         subtitle.setForeground(new Color(87, 104, 127));
 

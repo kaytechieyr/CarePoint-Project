@@ -98,7 +98,7 @@ public class LoginForm extends JFrame {
         lblBadge.setForeground(UITheme.PRIMARY_DARK);
 
         JLabel lblTitle = new JLabel("<html><div style='width: 420px;'>"
-                + "Desktop-based patient registration and medical reporting information system."
+                + "Your digital gateway to seamless healthcare services."
                 + "</div></html>");
         lblTitle.setAlignmentX(JComponent.LEFT_ALIGNMENT);
         lblTitle.setFont(new Font("SansSerif", Font.PLAIN, 18));
